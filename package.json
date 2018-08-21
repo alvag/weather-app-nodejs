@@ -1,0 +1,22 @@
+{
+  "name": "weather-app-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvag/weather-app-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvag/weather-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/alvag/weather-app-nodejs#readme",
+  "dependencies": {
+    "yargs": "^12.0.1"
+  }
+}
