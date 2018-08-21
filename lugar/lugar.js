@@ -13,11 +13,8 @@ const getLatLng = async (direccion) => {
         let address = response.data.results[0].formatted_address;
         let lat = response.data.results[0].geometry.location.lat;
         let lng = response.data.results[0].geometry.location.lng;
-
         return { address, lat, lng }
     }
-
-
 };
 
 module.exports = {
